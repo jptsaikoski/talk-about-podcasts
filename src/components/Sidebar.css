@@ -1,0 +1,132 @@
+.sidebar {
+    z-index: 100;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: rgba(255,255,255);
+}
+
+.sidebar__logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 24px;
+    padding: 0px 24px;
+}
+
+.sidebar__logo-image {
+    display: block;
+    width: 100%;
+    max-width: 92px;
+}
+
+.sidebar__nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.sidebar__nav-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    border-radius: 24px;
+    background-color: rgba(0,0,0,0);
+    padding: 24px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.sidebar__nav-icon {
+    display: block;
+    height: 1.2em;
+    margin-right: 12px;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.sidebar__nav-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgba(0,0,0,0.5);
+    font-weight: 700;
+    transition: all 0.1s;
+}
+
+/* .sidebar__nav-item:hover {
+    background-color: rgb(255,255,255);
+    transition: all 0.1s;
+} */
+
+.sidebar__nav-item:hover .sidebar__nav-link {
+    color: rgb(0,0,0);
+    transition: all 0.1s;
+}
+
+.sidebar__nav-item:hover .sidebar__nav-icon {
+    opacity: 1;
+    transition: all 0.1s;
+}
+
+.sidebar__nav-item#selected {
+    background-color: rgb(0,0,0);
+    transition: all 0.3s;
+}
+
+.sidebar__nav-item#selected .sidebar__nav-icon {
+    filter: invert(1);
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.sidebar__nav-item#selected .sidebar__nav-link {
+    color: rgb(255,255,255);
+    transition: all 0.3s;
+}
+
+.sidebar__user {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__user-avatar {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+    display: flex;
+    background-color: rgb(0,0,0);
+    border-radius: 100%;
+    border: 3px solid rgb(0,0,0);
+    overflow: hidden;
+}
+
+.sidebar__avatar-image {
+    width: 100%;
+    display: block;
+}
+
+.sidebar__user-info {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.sidebar__user-name {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(0,0,0);
+}

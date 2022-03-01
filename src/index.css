@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/public/type/Montserrat-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/public/type/Montserrat-ExtraLight.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/public/type/Montserrat-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/public/type/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/public/type/Montserrat-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/public/type/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/public/type/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/public/type/Montserrat-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/public/type/Montserrat-Black.ttf);
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
