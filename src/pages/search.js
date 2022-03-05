@@ -1,4 +1,4 @@
-import './discover.css';
+import './search.css';
 
 export default function SearchPage(props) {
     return (
